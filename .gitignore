@@ -1,0 +1,22 @@
+# Ignore Python virtual environments
+cropformer_env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore all large data and intermediate file directories
+csv_files/
+dataset/
+training_split/
+
+# Ignore downloaded tools/executables
+plink/
+plink-1.07-dos/
+
+# Ignore all specific large data files and logs in the root directory
+# Using wildcards (*) to catch all related files (.bed, .bim, .fam, .log, .raw, etc.)
+chr10_*
+
+# Ignore Python cache
+__pycache__/
+*.pyc
