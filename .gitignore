@@ -8,6 +8,7 @@ cropformer_env/
 csv_files/
 dataset/
 training_split/
+location/
 
 # Ignore downloaded tools/executables
 plink/
